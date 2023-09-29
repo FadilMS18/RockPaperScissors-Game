@@ -1,0 +1,165 @@
+/* Color Pallete Project */
+/* 
+    color: rgba(14, 90, 242, 1); 
+    color: rgba(12, 111, 242, 1); 
+    color: rgba(17, 140, 216, 1); 
+    color: rgba(21, 31, 38, 1); 
+    color: rgba(19, 179, 242, 1);
+    box-shadow:rgba(0, 250, 250, 0.2)
+*/
+ 
+
+
+
+body{
+    
+    font-family:arial;
+    margin:0;
+    padding:0;
+    user-select: none;
+    background-image: url(./../Assets/Rain\ town.gif);
+
+}
+
+#first-layer-parent-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#h1-first-layer{
+    position:fixed;
+    /* background-color:rgb(185, 178, 178); */
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+    /* width:97.4vw; */
+    padding:10px 20px;
+    text-align:center;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    z-index: 100;
+    color: white;
+    text-shadow: 0px 0px 10px  rgba(25, 255, 255, 1);
+    
+
+    background-image: url(./../Assets/Ninja\ rain.gif);
+    /* background-size:contain; */
+    /* background-repeat:no-repeat; */
+    background-position: center center;
+}
+
+#first-layer-container{
+    display:flex; /* Display option */
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    position:absolute; /*Position Center*/   
+    top:30%;
+
+    border:black 2px solid; /* Border Option */
+    border-radius:10px;
+    padding:20px 30px;
+    box-shadow:5px 5px 10px  rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+
+    background-color:rgba(0, 183, 255, 0.8);
+
+}
+
+.opacityZero{
+    opacity:0;
+    /* display:none; */
+    visibility: hidden;
+} 
+
+#first-layer-title{
+    font-family:'Rubik',cursive;
+}
+
+#first-layer-box{
+    border:rgb(0, 0, 0) 2px solid;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding:20px 25px;
+    gap:25px; 
+
+    box-shadow:0px 0px 10px 5px rgba(0, 250, 250, 0.5);
+}
+
+#input-name{
+    background-color:black;
+    color:white;
+    padding:7px 14px;
+    border:none;
+    border-radius:10px;
+
+    font-family: 'Rubik';
+    font-size:20px;
+    transition: 0.2s;
+
+    width:250px;
+    height:20px;
+}
+
+.inputName-boxShadow{
+    box-shadow:0px 0px 10px 5px rgba(0, 0, 0, 0.2), ;
+}
+
+.input-name-transform{
+    box-shadow:0px 0px 10px 10px rgba(109, 255, 255, 0.8);
+    transform:scale(1.05)
+}
+
+#first-layer-button{
+    border:none;
+    border-radius:10px;
+    background-color:aqua;
+    /* font-weight:bold; */
+    font-family:'Nunito'; 
+    font-size:14px;
+    padding:15px 25px;
+    cursor: pointer;
+    transition:0.3s;
+    box-shadow:0px 0px 10px 3px rgba(0, 0, 0, 0.2)
+}
+
+#first-layer-button:hover{
+    transform:scale(1.05)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background-color:rgba(12, 111, 242, 0.8);
+    font-family:Rubik;
+    font-size:18px;
+    padding:0px 40px;
+    font-weight:bold;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    color:white;
+    text-shadow: 0px 0px 10px rgb(0, 255, 255);
+}
+
+span{
+    font-size:23px;
+}
+

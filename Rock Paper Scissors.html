@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>07-09-2023</title>
+    <link rel="stylesheet" href="./CSS/07-09-2023 firstLayer.css" />
+    <link rel="stylesheet" href="./CSS/07-09-2023 gameOption.css"/>
+    <link rel="stylesheet" href="./CSS/07-09-2023 gameScore.css"/>
+    <link rel="stylesheet" href="./CSS/07-09-2023 historyTracker.css"/>
+    <link
+      rel="icon"
+      href="./Assets/miko-..ico"
+      size="32x32"
+      type="image/x-ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="this is a website" />
+  </head>
+
+  <body>
+    <!-- Making another RockPaperScissors Start -->
+   
+    <!-- Title Start -->
+    <h1 id="h1-first-layer">Rock Paper Scissors Game</h1>
+    <!-- Title End -->
+
+    <!-- First Layer Start -->
+    <div id="first-layer-parent-container">
+      <div id="first-layer-container">
+        <h2 id="first-layer-title">
+          Hey There Can You Give Your Name Before We Start?
+        </h2>
+        <div id="first-layer-box">
+          <input
+            id="input-name"
+            class="inputName-boxShadow"
+            type="text"
+            autocomplete="off"
+            placeholder="Type in your name Here"
+          />
+          <button id="first-layer-button">Submit</button>
+        </div>
+      </div>
+    </div>
+    <!-- First Layer End -->
+
+    <!-- Second Layer Start -->
+    <div class="opacityZero"  id="biggest-container">
+      
+      <div id="beatsContainer">
+        <div class="beats" name="batu" id="batu" >
+          <img class="foto-beats" src="./../Whole Assets/Suisei.png" alt="Batu"/>
+          <p class="jenis">BATU</p>
+        </div>
+        <div class="beats" name="gunting" id="gunting">
+          <img class="foto-beats" src="./../Whole Assets/Korone.png" alt="Gunting"/>
+          <p class="jenis">GUNTING</p>
+        </div>
+        <div class="beats" name="kertas" id="kertas">
+          <img class="foto-beats" src="./../Whole Assets/miko .png" alt="Kertas"/>
+          <p class="jenis">KERTAS</p>
+        </div>
+      </div>
+
+      <div id="score-container">
+        <div class="score" id="player-score">
+          <h4 class="score-name">Player Score</h4>
+          <p class="score-number" id="player">0</p>
+        </div>
+        <div class="score" id="vs-logo">
+          <img alt="VS-logo" id="vs-logo" src="./Assets/copy-vs-logo.png"/>
+        </div>
+        <div class="score" id="computer-score">
+          <h4 class="score-name">Computer Score</h4>
+          <p class="score-number" id="computer">0</p>
+        </div>
+
+      </div>
+
+      <div id="history-tracker">
+        <p class="history-para">Your Play History Will Be Written Here </p>
+
+
+        
+      </div>
+    </div>
+
+    <!-- Second Layer End -->
+
+
+    <!-- FooterStart -->
+    <footer id="footer">FadilMS18</footer>
+    <!-- FooterEnd -->
+    
+
+    <!-- Making Another RockPaperScissors End -->
+
+    <script src="./JS/07-09-2023 firstLayer.js"></script>
+    <script src="./JS/07-09-2023 game.js"></script>
+  </body>
+</html>
