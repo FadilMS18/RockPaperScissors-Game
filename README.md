@@ -13,3 +13,5 @@ https://fadilms18.github.io/RockPaperScissors-Game/
 4.I learn using setTimeout method to generate like delayed event, in this case i use it on opacity changing
 
 5.I learn about transform property with scale() value
+
+6.Learned a bit about branching in git,how to create,move,use changing current branch etc.
