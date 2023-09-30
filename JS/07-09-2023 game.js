@@ -181,41 +181,21 @@ function playPaper(){
 
 function playGame(){
     if(pilihanPlayer === "batu"){
-        console.log(pilihanPlayer)
+        // console.log(pilihanPlayer)
         playRock()
     }
     else if(pilihanPlayer === "gunting"){
-        console.log(pilihanPlayer)
+        // console.log(pilihanPlayer)
         playScissorrs()
         // console.log(elem)
     }
     else if(pilihanPlayer === "kertas"){
-        console.log(pilihanPlayer)
+        // console.log(pilihanPlayer)
         playPaper()
         // console.log(elem)
     }
 
 }
-// var pilihanPlayer = "";
-
-// arrBeats.forEach((elemen) =>{
-//     let id = elemen.id
-//     if(id === "batu"){
-//         pilihanPlayer = "Batu"
-//         // playGame(elem)
-//         elemen.addEventListener("click", playGame)
-//     }
-//     else if(id === "gunting"){
-//         pilihanPlayer = "Gunting"
-//         elemen.addEventListener("click", playGame)
-//         // playGame(elem)
-//     }
-//     else if(id === "kertas"){
-//         pilihanPlayer = "Kertas"
-//         elemen.addEventListener("click", playGame)
-//     } 
-// })
-
 var pilihanPlayer = ""
 
 arrBeats.forEach((elemen) =>{

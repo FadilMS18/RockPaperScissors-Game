@@ -36,7 +36,7 @@ inputName.addEventListener("keypress",()=>{
 // firstLayer Opacity 0
 buttonName.addEventListener("click", ()=>{
     namaPlayer = inputName.value;
-    console.log(namaPlayer)
+    // console.log(namaPlayer)
     firstLayerContainer.classList.add("opacityZero")
 
     setTimeout(secondLayer, 500)                
@@ -47,7 +47,7 @@ inputName.addEventListener("keypress", (e)=>{
     if(e.code !== "Enter" ) return // akan return jika bukan Enter
     if(e.code = "Enter"){
         namaPlayer = inputName.value;
-        console.log(namaPlayer)
+        // console.log(namaPlayer)
         firstLayerContainer.classList.add("opacityZero")
     
         setTimeout(secondLayer, 500) 
